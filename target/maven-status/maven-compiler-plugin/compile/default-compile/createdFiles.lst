@@ -1,0 +1,16 @@
+com\taste\elasticsearch_taste\action\TransportTasteEventAction.class
+com\taste\elasticsearch_taste\action\Preconditions.class
+com\taste\elasticsearch_taste\rest\TasteEventRestAction.class
+com\taste\elasticsearch_taste\common\TasteEventRequestBuilder.class
+com\taste\elasticsearch_taste\action\TasteEventAction.class
+com\taste\elasticsearch_taste\action\TransportTasteEventAction$1.class
+com\taste\elasticsearch_taste\App.class
+com\taste\elasticsearch_taste\rest\TasteEventRestAction$1.class
+com\taste\elasticsearch_taste\action\TransportTasteEventAction$TransportHandler.class
+com\taste\elasticsearch_taste\rest\TasteEventRestAction$Message.class
+com\taste\elasticsearch_taste\common\TasteEventResponse.class
+com\taste\elasticsearch_taste\rest\ArgumentParser.class
+com\taste\elasticsearch_taste\action\LoggerUtils.class
+com\taste\elasticsearch_taste\action\TransportTasteEventAction$TransportHandler$1.class
+com\taste\elasticsearch_taste\common\TasteEventRequest.class
+com\taste\elasticsearch_taste\plugin\TastePlugin.class

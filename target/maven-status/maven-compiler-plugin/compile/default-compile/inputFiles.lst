@@ -1,0 +1,10 @@
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\common\TasteEventRequestBuilder.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\common\TasteEventResponse.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\plugin\TastePlugin.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\action\TransportTasteEventAction.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\action\LoggerUtils.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\action\Preconditions.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\common\TasteEventRequest.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\action\TasteEventAction.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\rest\TasteEventRestAction.java
+D:\javaSourceCode\elasticsearch_taste1\src\main\java\com\taste\elasticsearch_taste\App.java
