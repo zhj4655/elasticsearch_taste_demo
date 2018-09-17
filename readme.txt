@@ -1,11 +1,22 @@
-1¡¢mvn clean install compile -Dmaven.test.skip=true
+1ï¿½ï¿½mvn clean install compile -Dmaven.test.skip=true
 
-2¡¢½«target\elasticsearch-taste-0.0.1-SNAPSHOT.jarºÍtarget\classes\plugin-descriptor.propertiesÎÄ¼þ¸´ÖÆµ½ÐÂ½¨µÄelasticsearchÎÄ¼þ¼Ð£¨Î»ÖÃËæÒâ£©
+2ï¿½ï¿½ï¿½ï¿½target\elasticsearch-taste-0.0.1-SNAPSHOT.jarï¿½ï¿½target\classes\plugin-descriptor.propertiesï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½Â½ï¿½ï¿½ï¿½elasticsearchï¿½Ä¼ï¿½ï¿½Ð£ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½â£©
 
-3¡¢Ìí¼ÓelasticsearchÎÄ¼þ¼Ðµ½Ñ¹ËõÎÄ¼þ£¬ÎÄ¼þÃûÎªtaste-5.4.0.1.zip
+3ï¿½ï¿½ï¿½ï¿½ï¿½elasticsearchï¿½Ä¼ï¿½ï¿½Ðµï¿½Ñ¹ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Îªtaste-5.4.0.1.zip
 
-4¡¢½øÈëelasticsearch-5.4.1\binÎÄ¼þ¼ÐÏÂ
-4.1¡¢Èç¹ûÖ®Ç°°²×°¹ýÍ¬Ãûplugin£¬ÐèÒªÐ¶ÔØ£¬Ö´ÐÐ£ºelasticsearch-plugin remove taste
-4.2¡¢°²×°ÐÂ²å¼þ£¬Ö´ÐÐ£ºelasticsearch-plugin install file:{path}/taste-5.4.0.1.zip £¨ÆäÖÐ{path}ÊÇ¸ÃÑ¹Ëõ°üµÄ¾ø¶ÔÂ·¾¶£©
+4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½elasticsearch-5.4.1\binï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½
+4.1ï¿½ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½×°ï¿½ï¿½Í¬ï¿½ï¿½pluginï¿½ï¿½ï¿½ï¿½ÒªÐ¶ï¿½Ø£ï¿½Ö´ï¿½Ð£ï¿½elasticsearch-plugin remove taste
+4.2ï¿½ï¿½ï¿½ï¿½×°ï¿½Â²ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð£ï¿½elasticsearch-plugin install file:{path}/taste-5.4.0.1.zip ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{path}ï¿½Ç¸ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½
 
-PS£ºµÚËÄ²½½áÊøºó£¬»áµÃµ½Ò»¸öelasticsearch-5.4.1\plugins\tasteÎÄ¼þ¼Ð£¬Èç¹ûÐèÒªÔÚÔ´ÂëÖÐÆô¶¯²å¼þ£¬Ö»Ðè½«¸ÃÎÄ¼þ¼Ð¸´ÖÆµ½Ô´Âë°æelasticsearch-5.4.1\core\src\main\plugins\taste\
+PSï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó£¬»ï¿½Ãµï¿½Ò»ï¿½ï¿½elasticsearch-5.4.1\plugins\tasteï¿½Ä¼ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½è½«ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ð¸ï¿½ï¿½Æµï¿½Ô´ï¿½ï¿½ï¿½elasticsearch-5.4.1\core\src\main\plugins\taste\
+
+
+=============================================================================================================================
+Attention!!!
+
+This project can not be modify except by dingguangwei and zhanghongjia.
+If you modify it by mistake, use the following way to return to version in "Commits on Sep 14, 2018"
+
+git reset --hard 2e7ab02e799f26a2f0c2ba6790f88e818113daee
+git push -f -u origin master
+git pull
