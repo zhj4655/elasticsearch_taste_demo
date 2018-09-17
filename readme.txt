@@ -15,8 +15,8 @@ PS�����Ĳ������󣬻�õ�һ��elasticsearch-5.4.1\plu
 Attention!!!
 
 This project can not be modify except by dingguangwei and zhanghongjia.
-If you modify it by mistake, use the following way to return to version in "Commits on Sep 14, 2018"
+If you modify it by mistake, use the following way to return to version in "Commits on Sep 17, 2018"
 
-git reset --hard 2e7ab02e799f26a2f0c2ba6790f88e818113daee
+git reset --hard 977a3bb821cd0c31423013c74c1cb7fe33d2edce
 git push -f -u origin master
 git pull
